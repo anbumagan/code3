@@ -1,6 +1,9 @@
 a=int(input())
-for i in range(1,10):
-    if(i==a):
+c1=1
+while(c1<=10):
+    if(c1==a):
         print("yes")
-        break
+        c1=c1+1
+    else:
+        c1=c1+1
     
