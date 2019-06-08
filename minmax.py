@@ -1,3 +1,3 @@
 a=int(input())
 s=input().split()
-print(max(s)+" "+min(s))
+print(min(s)+" "+max(s))
