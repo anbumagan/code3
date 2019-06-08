@@ -1,11 +1,14 @@
 a,b=input().split()
 x=int(a)
 y=int(b)
+c=d=0
 s=list(map(int,input().split()))
 for i in range(len(s)):
     if(s[i]==y):
-        print("yes")
-        break
+        c+=1
     else:
-        print("no")
-        break
+        d+=1
+if(c>=1):
+    print("yes")
+else:
+    print("no")
