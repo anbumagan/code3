@@ -1,8 +1,8 @@
 a=int(input())
-for i in range(0,11):
-    if(a==i):
+c=1
+while(c<=10):
+    if(c==a):
         print("Yes")
-        break
+        c=c+1
     else:
-        print("No")
-        break
+        c=c+1
