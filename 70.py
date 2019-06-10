@@ -1,7 +1,16 @@
 z=int(input())
-while(z>0):
-    if(z&(z-1)):
+if((z&(z-1))):
+   while(z>0):
+      if(z&(z-1)):
         z=z+1
-    else:
+      else:
+        print(z)
+        break
+else: 
+    z=z+1
+    while(z>0):
+      if(z&(z-1)):
+        z=z+1
+      else:
         print(z)
         break
