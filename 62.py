@@ -1,5 +1,4 @@
-a=input().split()
-l=list(map(int,a))
+l=list(map(int,input()))
 c=0
 d=0
 for i in l:
