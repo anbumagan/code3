@@ -1,6 +1,6 @@
 a=input()
 b=set(a)
 if(len(a)==len(b)):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
