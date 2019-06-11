@@ -4,3 +4,5 @@ d=str(st1)
 e=int(b)
 if(d=='/'):
     print(c//e)
+else:
+    print(c%e)
