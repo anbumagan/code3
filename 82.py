@@ -1,3 +1,3 @@
 a,b=map(float,input().split())
 c1=a*b
-print(round(c1,5))
+print(format(c1,'.5f'))
