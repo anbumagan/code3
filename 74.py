@@ -1,2 +1,3 @@
-a=input()
-print(round(a))
+import math
+a=float(input())
+print(math.ceil(a))
