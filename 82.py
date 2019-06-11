@@ -1,3 +1,3 @@
 a,b=map(float,input().split())
-c=a*b
-print(round(c,5))
+c1=a*b
+print(round(c1,5))
